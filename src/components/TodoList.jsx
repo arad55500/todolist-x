@@ -12,22 +12,22 @@ function TodoList({ selectedDate }) {
 
     const addTodo = () => {
         if (todos.length < 15 && inputValue.trim() !== '') {
-            const newTodos = [...todos, inputValue];
-            setTodos(newTodos);
+            const newTodos = [...todos, inputValue]; // Add input value to todos
+            setTodos(newTodos); // Set todos to newTodos
             localStorage.setItem(selectedDate, JSON.stringify(newTodos));
-            setInputValue('');
+            setInputValue(''); // Clear input value
         }
     };
 
-    const removeTodo = index => {
+    const removeTodo = index => { // Remove todo at index
         const newTodos = todos.filter((_, i) => i !== index);
-        setTodos(newTodos);
+        setTodos(newTodos); // Set todos to newTodos
         localStorage.setItem(selectedDate, JSON.stringify(newTodos));
     };
 
     return (
         <div>
-            <h2>To-do List for {selectedDate}</h2>
+            <h2>To-do List for {selectedDate}</h2> 
             <input
                 type="text"
                 value={inputValue}
