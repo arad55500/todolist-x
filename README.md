@@ -1,6 +1,10 @@
+![Screenshot1](src/Screenshots/Screenshot2.png "screenshot1")
+
 # To-do List X V1.1 (BETA) by Arad Okanin
 
 This project is a simple to-do list application built with React. It features a calendar and a daily to-do list that users can interact with to track their tasks. The application is styled for both light and dark modes, making it easy on the eyes regardless of user preference.
+
+You can find a live version of this web app here: https://todolist-x.vercel.app/
 
 ## Features
 
