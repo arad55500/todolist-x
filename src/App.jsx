@@ -7,7 +7,7 @@ function App() {
 
     return (
         <div>
-            <h1>To-do List X V1.1 | aradokanin.com</h1>
+            <h2>To-do List X (BETA) V1.1 by Arad Okanin | aradokanin.com</h2>
             <NodeList selectedDate={selectedDate} />
         </div>
     );

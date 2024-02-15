@@ -7,9 +7,6 @@
   text-decoration: none;
   color: #fff;
   background-color: #007bff; /* Blue color */
-  border:2px solid #007bff; /* Blue border */
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
 }
 
 body, html {
@@ -22,10 +19,10 @@ body, html {
 }
 
 #root {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: #121212; /* Consistent background with body */
 }
 
@@ -34,17 +31,16 @@ body, html {
   justify-content: space-around; /* Changed to space-around for equal spacing */
   align-items: center;
   text-align: center;
-  width: 80%;
-  height: 100%;
+  width: 95%;
+  height: 100vh;
   background-color: #121212; /* Dark background for the app */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px; /* Padding around the app */
 }
 
 .App-split {
   display: flex;
   text-align: center;
-  height: 100%;
+  height: 50%;
   width: 100%; /* Set width to 100% for full width */
 }
 
@@ -52,11 +48,8 @@ body, html {
 .todo-list-container {
   flex: 1; /* Set flex to 1 for equal width */
   overflow: auto;
-  border: 1px solid #333; /* Border for separation */
   margin: 20px; /* Margin for spacing */
-  border-radius: 8px; /* Border radius for rounded corners */
   background: #1f1f1f; /* Background for dark mode */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Box shadow for depth */
 }
 
 /* Shared styles for calendar and todo list */
@@ -108,7 +101,6 @@ body, html {
   background: #e74c3c;
   color: white;
   border: none;
-  border-radius: 50%;
   width: 20px;
   height: 20px;
   text-align: center;
@@ -181,6 +173,5 @@ body, html {
   color: #fff;
   background-color: #007bff; /* Blue color */
   border:2px solid #007bff; /* Blue border */
-  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
