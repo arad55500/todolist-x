@@ -1,4 +1,4 @@
-![Screenshot1](src/Screenshots/Screenshot2.png "screenshot1")
+![Screenshot1](src/Screenshots/Screenshot1.png "screenshot1")
 
 # To-do List X V1.1 (BETA) by Arad Okanin
 
