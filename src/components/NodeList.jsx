@@ -4,7 +4,7 @@ import TodoList from './TodoList';
 import './App.css';
 
 function NodeList() {
-    const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]);
+    const [selectedDate, setSelectedDate] = useState(new Date().toISOString().split('T')[0]); // Initialize selectedDate as an empty string
 
     return (
         <div className="App">
