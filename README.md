@@ -34,7 +34,7 @@ If you need to install npm, download and install Node.js from the official websi
 #### Clone the repository:
 
 ```
-git clone https://github.com/arad55500/todolist-x
+git clone https://github.com/arad55500/todolist-x.git
 ```
 
 #### Navigate to the project directory:
